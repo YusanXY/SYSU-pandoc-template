@@ -12,6 +12,10 @@ markdwon -> latex -> pdf
 pandoc my_report.md -o my_report.pdf --pdf-engine=xelatex --template=my_template.latex
 # pandoc my_report.md -o my_report.pdf --pdf-engine=xelatex --template=my_template.latex --lua-filter=image_placement.lua 目前还不太能用
 ```
+# 效果图
+
+![效果图](preview/image1.jpg)
+![效果图](preview/image2.jpg)
 
 # 图片脚本用法
 现在还不太能用
